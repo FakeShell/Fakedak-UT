@@ -1,0 +1,15 @@
+{
+    "name": "fakedak.fakeshell",
+    "description": "FakeDak Radio",
+    "architecture": "all",
+    "title": "FakeDak",
+    "hooks": {
+        "fakedak": {
+            "apparmor": "fakedak.apparmor",
+            "desktop":  "fakedak.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Bardia Moshiri <fakeshell@bardia.tech>",
+    "framework" : "ubuntu-sdk-16.04.5"
+}
